@@ -1,15 +1,15 @@
 const boton = document.querySelector("button");
 const lista = document.querySelector("ul");
-const imagen = document.querySelector("img");
+const imagen = document.querySelector(".img");
 let visible = false;
 
 const menu = {
 
-    raya : "../assets/menu.png",
-     x : "../assets/cerrar.png"
+    abrir : "./assets/menu.png",
+    cerrar : "./assets/cerrar.png"
 }
 
-const { raya, x} = menu;
+const { abrir, cerrar} = menu;
 
 boton.addEventListener("click",()=>{
 
@@ -17,10 +17,10 @@ boton.addEventListener("click",()=>{
 
     if(visible){
      lista.style.display = "flex";
-     imagen.src = x;
+     imagen.src = cerrar;
     }
     else{
     lista.style.display = "none";
-    imagen.src = raya;
+    imagen.src = abrir;
     }
 });
