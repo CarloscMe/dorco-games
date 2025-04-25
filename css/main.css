@@ -1,24 +1,16 @@
-@keyframes blinkCursor {
-    50% {
-      border-right-color: transparent;
-    }
-  }
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  min-height: 90dvh;
+  background: url('../assets/principal.webp') center/cover no-repeat fixed;
+ /* transition: background 3s linear;*/
+  /*animation: aparecer 2s .6s both;*/
+}
   
-  @keyframes typeAndDelete {
-    0%,
-    10% {
-      width: 0;
-    }
-    45%,
-    55% {
-      width: 7em;
-    }  
-    100% {
-      width: 95%;
-    }
-  }
-  
-  .text {
+   .text {
     color: #fff;
     font-size: 1rem;
     display: inline-block;
@@ -31,25 +23,26 @@
     margin-top: 1.5em;
   }
 
-
-  main{
-    width: 100%;
-    min-height: 90dvh;
-    background: url('../assets/principal.webp') center/cover no-repeat fixed;
-    transition: background 3s linear;
-    animation: aparecer 2s .6s both;
+  .info{
+    width: 50%;
+    height: 200px;
+    animation: efecto 2s ease-out .9s 3 both;
+    position: relative;
+    z-index: 40;
   }
 
-  @keyframes aparecer {
-    from{
-      opacity: 0;
-    }
-  
-    to{
-     opacity: 1;
-    }
-    }
+  .info--hola{
+    animation: efecto-2 2s linear .9s 3 both;
+    background-color: rgba(205, 255, 224, 0.74);
+  }
 
-  main:hover{
+  p{
+    color: #fff;
+    font-size: 2rem;
+    margin: 20px auto;
+   /* */
+  }
+
+ /* main:hover{
    background-position-y: 20px;
-  }
+  }*/

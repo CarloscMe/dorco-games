@@ -30,7 +30,6 @@ h1, a, a:link, a:visited{
   }
 
   li{
-    padding: 20px;
     margin-right: 1.5rem;
   }
 
@@ -66,35 +65,3 @@ h1, a, a:link, a:visited{
      opacity: 1;
     }
     }*/
-
-
-  @media (max-width: 800px){
-
-  header{
-    position: static;
-  }
-
-
-    button{
-      display: block;
-      background: transparent;
-      position: relative;
-      z-index: 20;
-    }
-   
-   ul{
-    display: none;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    background: #000000;
-    position: absolute;
-    z-index: 10;
-    top: 0;
-    right: 0;
-    width: 70%;
-    height: 100%;
-    box-shadow: 0 0 0 100rem #24242479;
-   }
-
-  }
