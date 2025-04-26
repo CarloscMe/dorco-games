@@ -22,7 +22,6 @@
   body{
     font-family: 'Times New Roman', Times, serif;
     font-weight: 500;
-    overflow: hidden;
   }
 
   @media (max-width: 800px){
@@ -52,6 +51,19 @@
       width: 70%;
       height: 100%;
       box-shadow: 0 0 0 100rem #8d8a8a3d;
+     }
+
+     main{
+      flex-flow: column-reverse wrap;
+     }
+
+     .imagen{
+      height: 100%;
+      width: 100%;
+     }
+
+     .info{
+      width: 100%;
      }
   
     }
