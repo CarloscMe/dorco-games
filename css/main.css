@@ -3,7 +3,7 @@ main{
   align-items: center;
   justify-content: center;
   width: 100%;
-  min-height: 50dvh;
+  min-height: 10dvh;
   background-color: var(--fondo-image);
   /*background: url('../assets/') center/cover no-repeat fixed;*/
  /* transition: background 3s linear;*/

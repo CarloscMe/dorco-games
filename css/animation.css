@@ -22,14 +22,14 @@
     }
   }
 
- /* @keyframes efecto-2{
+  @keyframes efecto-2{
     0%{
       transform: translateX(1200px);
-     /* transform: translateY(400px);
+     /* transform: translateY(400px);*/
     }
     100%{
       transform: translateX(0px);
-      /*transform: translateY(0px);
+      /*transform: translateY(0px);*/
     }
   }
 
