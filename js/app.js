@@ -1,20 +1,24 @@
 const boton = document.querySelector("button");
 const lista = document.querySelector("ul");
 const imagen = document.querySelector(".img");
+const item = document.querySelector(".item--caja1");
 let visible = false;
 
 const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('item--caja2');   // con esta api le aplico el view aunque necesito probarla mas
-      }
-    });
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      item.classList.add('item--caja2'); 
+      observer.unobserve(item);
+      item.style.opacity = "1";
+    } else{
+      item.style.opacity ="0";
+    }
   });
-  
-  document.querySelectorAll('.item--caja').forEach(box => {
-    observer.observe(box);
-  });
-  
+});
+
+document.querySelectorAll(".info--caja2").forEach(box => {
+  observer.observe(box);
+})
 
 const menu = {
 

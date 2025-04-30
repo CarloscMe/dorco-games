@@ -36,6 +36,8 @@ main{
     scrollbar-width: none;
     position: relative;
     z-index: 40;
+    color: #fff;
+    font-size: 1.5rem;
   }
 
  /* .info--hola{
@@ -45,8 +47,6 @@ main{
   .info__item{
     position: absolute;
     animation: efecto 2s ease-out 1s both;
-    color: #fff;
-    font-size: 1.5rem;
    /* */
   }
 

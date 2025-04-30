@@ -18,14 +18,12 @@
     animation: giro 10s linear 2s infinite both;
 }
 
-/*.item--caja{
+.item--caja{
     animation: efecto 2s ease-out 1s both;
-}*/
+}
 
 .item--caja2{
-    animation: efecto-2 2s linear 2s both;
-    color: #fff;
-    font-size: 1.5rem;
+    animation: efecto-2 2s linear .7s both;
 }
 
 @keyframes giro{
