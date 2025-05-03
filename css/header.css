@@ -1,3 +1,7 @@
+a{
+  display: inline-block;
+  user-select: none;
+}
 
 h1, a, a:link, a:visited{
     color: #fff;
@@ -5,6 +9,7 @@ h1, a, a:link, a:visited{
 
   a:hover{
     color: #42792d;
+   
   }
 
   button{
@@ -29,12 +34,17 @@ h1, a, a:link, a:visited{
   }
  
   ul{
+    padding: 15px;
     display: flex;
     justify-content: space-between;
   }
 
   li{
     margin-right: 1.5rem;
+  }
+
+  ul:has(a:hover) {
+  border-bottom: 1px solid #42792d;
   }
 
  /* div{

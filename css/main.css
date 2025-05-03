@@ -35,7 +35,7 @@ main{
     overflow-x: scroll;  /* la overflow me permite generar animaciones por caja y mejora la web*/
     scrollbar-width: none;
     position: relative;
-    z-index: 40;
+    z-index: 1;
     color: #fff;
     font-size: 1.5rem;
   }
@@ -46,6 +46,7 @@ main{
 
   .info__item{
     position: absolute;
+    z-index: 20;
     animation: efecto 2s ease-out 1s both;
    /* */
   }
