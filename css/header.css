@@ -30,10 +30,10 @@ h1, a, a:link, a:visited{
     justify-content: space-between;
     animation: hola both;
     animation-timeline: scroll();
-    animation-range: 10px 100px; 
+    /*animation-range: 10px 100px;*/
   }
  
-  ul{
+  .ul{
     padding: 15px;
     display: flex;
     justify-content: space-between;
@@ -43,7 +43,7 @@ h1, a, a:link, a:visited{
     margin-right: 1.5rem;
   }
 
-  ul:has(a:hover) {
+  .ul:has(a:hover) {
   border-bottom: 1px solid #42792d;
   }
 

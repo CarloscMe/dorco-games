@@ -32,6 +32,7 @@
   
   
       button{
+        margin-right: 1rem;
         display: block;
         background: transparent;
         position: relative;
@@ -49,12 +50,12 @@
       top: 0;
       right: 0;
       width: 70%;
-      height: 50rem;   /* cambios del rem y las z-index*/
+      height: 50rem;
       box-shadow: 0 0 0 100rem #8d8a8a3d;
      }
 
      main{
-      flex-flow: column-reverse wrap;
+      flex-flow: column-reverse;
      }
 
      .imagen{
@@ -64,6 +65,11 @@
 
      .info{
       width: 100%;
+     }
+
+     .imagen-2{
+      height: 7%;
+      width: 7%;
      }
   
     }

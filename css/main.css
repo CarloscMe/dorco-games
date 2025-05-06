@@ -15,6 +15,11 @@ main{
  height: 50%;
  width: 50%;
 }
+
+h1{
+  font-size: 1.5rem;
+  font-weight: 300;
+}
   
    /*.text {
     color: #fff;
@@ -34,21 +39,16 @@ main{
     height: 200px;
     overflow-x: scroll;  /* la overflow me permite generar animaciones por caja y mejora la web*/
     scrollbar-width: none;
-    position: relative;
-    z-index: 1;
     color: #fff;
     font-size: 1.5rem;
   }
 
- /* .info--hola{
-   animation: efecto-2 2s linear .9s 3 both;
-  }*/
+ .info--hola{
+   animation: efecto-3 2s linear 3s both;
+  }
 
   .info__item{
-    position: absolute;
-    z-index: 20;
-    animation: efecto 2s ease-out 1s both;
-   /* */
+    animation: efecto-3 2s linear 2s both;
   }
 
  /* main:hover{

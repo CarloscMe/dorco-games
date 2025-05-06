@@ -10,26 +10,31 @@
     }
     }
 
-    
  @keyframes efecto{
     0%{
       transform: translateX(-1200px);
-    /* transform: translateY(400px);*/
     }
     100%{
       transform: translateX(0px);
-      /*transform: translateY(0px);*/
     }
   }
 
   @keyframes efecto-2{
     0%{
       transform: translateX(1200px);
-     /* transform: translateY(400px);*/
     }
     100%{
       transform: translateX(0px);
-      /*transform: translateY(0px);*/
+    }
+  }
+
+  @keyframes efecto-3{
+    0%{
+      transform: translateY(1000px);
+    }
+
+    100%{
+      transform: translateY(0px);
     }
   }
 
