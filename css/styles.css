@@ -38,6 +38,10 @@
         position: relative;
         z-index: 99;
       }
+
+      li{
+         flex-shrink: 10;
+      }
      
      .ul{
       display: none;

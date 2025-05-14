@@ -38,6 +38,7 @@ h1{
     width: 50%;
     height: 200px;
     overflow-x: scroll;  /* la overflow me permite generar animaciones por caja y mejora la web*/
+    overscroll-behavior: contain;
     scrollbar-width: none;
     color: #fff;
     font-size: 1.5rem;
