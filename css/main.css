@@ -37,6 +37,7 @@ h1{
   .info{
     width: 50%;
     height: 200px;
+    overflow: hidden;
     overflow-x: scroll;  /* la overflow me permite generar animaciones por caja y mejora la web*/
     overscroll-behavior: contain;
     scrollbar-width: none;

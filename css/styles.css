@@ -38,16 +38,13 @@
         position: relative;
         z-index: 99;
       }
-
-      li{
-         flex-shrink: 10;
-      }
      
      .ul{
       display: none;
       flex-direction: column;
-      justify-content: space-evenly;
+      justify-content: center;
       align-items: center;
+      gap: 50px;
       background: #000000;
       position: absolute;
       z-index: 90;

@@ -9,6 +9,13 @@
     justify-content: space-evenly;
 }
 
+#text{
+    color: #fff;
+    font-size: 1.5rem;
+     animation: nose 2s linear both infinite;
+     animation-play-state: paused;
+}
+
 .imagen-2{
     display: block;
     width: 5%;
@@ -46,6 +53,20 @@
 
     100%{
         transform: rotate(360deg);
+    }
+}
+
+@keyframes nose{
+    0%{
+ transform: skewX(-10deg);
+transform-origin: 10% -10%;
+  
+    }
+
+    100%{
+ transform: skewX(100deg);
+transform-origin: 100% -50%;
+  
     }
 }
 
