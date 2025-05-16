@@ -72,5 +72,8 @@
       height: 7%;
       width: 7%;
      }
-  
+
+    .imagen-3{
+      animation-range: contain 0% cover 20%;
+    }  
     }
